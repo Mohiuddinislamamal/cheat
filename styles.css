@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    scroll-behavior: smooth;
+}
+
+/* footer link */
+.col-6>a {
+    display: block;
+}
+
+/* shop now btn */
+
+#shop-btn{
+    background-color:#ff8100;
+}
+
+/* width of every cards on product section */
+#card-width {
+    width: 18rem;
+}
+
+
+/* categories nav link */
+
+.me-3 me-md-5{
+    font-size: 20px;
+    size: 200px;
+}
+/* Adjust the size of the logo */
+.navbar-brand img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Let the height adjust proportionally */
+    margin-right: 10px; /* Add some margin to separate the logo from the search box */
+}
+
+
+@media (max-width: 768.98px) {
+    #input-form {
+        width: 35%;
+    }
+}
+
+
+
+/* responsive blog post. modify the width of image in each breakpoints */
+
+@media (min-width: 768px) {
+    .bg {
+        width: 350px;
+    }
+}
+
+@media (min-width: 992px) {
+    .bg {
+        width: 230px;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .bg {
+        width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bg {
+        width: 250px;
+    }
+}
+
+@media (max-width: 578px) {
+    .bg {
+        width: 100%;
+    }
+}
+/* Resize the footer logo */
+.footer-logo {
+    max-width: 100px; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
